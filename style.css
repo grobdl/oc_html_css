@@ -1,0 +1,49 @@
+body
+{
+	color: blue;
+	background-image: url('contenu/mini-me.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: rgba(255, 0, 0, 0.5); /* dernier facteur= opacité */
+	/* Equivaut à background: url('contenu/mini-me.jpg') fixed no-repeat center; */
+}
+
+p
+{
+	border: 3px blue dashed;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-radius: 10px / 5px ;
+	box-shadow: 1px -1px 10px black;
+}
+
+.marker
+{
+	background-color: green;
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+a[class="btnclasse"]
+{
+	color: white;
+	background: black;
+	font-weight: bold;
+	text-decoration: none;
+	border: 5px black solid;
+	text-align: center;
+}
+
+a[class="btnclasse"]:visited
+{
+	color: black;
+	background: white;
+	font-weight: bold;
+	text-decoration: none;
+	border: 5px white solid;
+	text-align: center;
+}
