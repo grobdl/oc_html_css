@@ -1,0 +1,66 @@
+@font-face
+{
+	font-family: 'roboto-slab';
+	src: 	url('fonts/RobotoSlab-Regular-webfont.eot');
+	src: 	url('fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
+			url('fonts/RobotoSlab-Regular-webfont.ttf') format('truetype');
+
+}
+
+body
+{
+	font-family: 'roboto-slab', serif;
+}
+
+header
+{
+	background: url('contenu/header.jpg');
+	display: flex;
+}
+
+header h1
+{
+	color: white;
+}
+
+header h2
+{
+	color: white;
+}
+
+nav
+{
+	background: url('contenu/nav.jpg');
+	display: flex;
+}
+
+nav a
+{
+	display: block;
+	text-align: center;
+	width: 33%;
+	text-decoration: none;
+	color: white;
+}
+
+a:visited
+{
+	color: white;
+}
+
+nav a:hover
+{
+	color: black;
+	background: white;
+}	
+
+.nav_a1
+{
+	font-size: 36px;
+}
+
+.nav_a2
+{
+	color: white;
+}
+
