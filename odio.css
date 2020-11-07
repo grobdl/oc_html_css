@@ -10,12 +10,28 @@
 body
 {
 	font-family: 'roboto-slab', serif;
+	min-width: 1366 px;
+	margin: auto;
+	
 }
+
+img
+{
+	margin: 0px;
+}
+
+/**HEADER**/
 
 header
 {
+	padding: 2px 0px 2px 0px;
 	background: url('contenu/header.jpg');
 	display: flex;
+}
+
+header div
+{
+	margin: 0px 10px 0px 0px;
 }
 
 header h1
@@ -28,22 +44,25 @@ header h2
 	color: white;
 }
 
+/**NAV**/
+
 nav
 {
 	background: url('contenu/nav.jpg');
 	display: flex;
+	justify-content: space-around;
 }
 
 nav a
 {
 	display: block;
 	text-align: center;
-	width: 33%;
+	width: 20%;
 	text-decoration: none;
 	color: white;
 }
 
-a:visited
+nav a:visited
 {
 	color: white;
 }
@@ -54,13 +73,230 @@ nav a:hover
 	background: white;
 }	
 
-.nav_a1
+nav a h1
 {
-	font-size: 36px;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0px;
 }
 
-.nav_a2
+nav a img
+{
+	margin: 0px;
+}
+
+nav a p
+{
+	margin: 0px;
+}
+
+/**CONTENT**/
+#content
+{
+	background: url('contenu/content.jpg');
+	display: flex;
+	justify-content: space-around;
+}
+
+#content section
+{
+	width: 45%;
+	display: flex;
+	padding: 5px;
+	margin: 5px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#content article
+{
+	text-align: justify;
+	min-width: 100%;
+	padding: 5px;
+	margin: 5px;
+}
+
+#content aside
+{
+	text-align: justify;
+	min-width: 45%;
+	padding: 5px;
+	margin: 5px;
+}
+
+#content aside p
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#content aside:nth-child(3)
+{
+	text-align: right;
+}
+
+/**FORMULAIRE**/
+form
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: url('contenu/form.png');
+}
+
+form div
+{
+	padding: 5px;
+	margin: 5px;
+	flex-wrap: wrap;
+}
+
+form h1, div h2, div p
+{
+	width: 100%;
+	margin: 0px;
+}
+
+form h1
+{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+form div h2
+{
+	font-size: 18px;
+	text-align: left;
+}
+
+form div p
+{
+	font-size: 12px;
+	text-align: left;
+}
+
+.left_form
+{
+	min-width: 170px;
+	width: 40%;
+}
+
+.right_form
+{
+	width: 45%;
+}
+
+.chck
+{
+	background: #87bd60;
+	display: flex;
+	justify-content: space-around;
+}
+
+.coord
+{
+	background: #87bd60;
+	display: flex;
+	justify-content: space-between;
+}
+
+input[type=checkbox], input[type=radio]
+{
+	position: absolute;
+	left: -99999px;
+}
+
+
+label
+{
+	vertical-align: middle;
+}
+
+label.text
+{
+	width: 35%;
+	margin: 2px 0px 2px 0px;
+}
+
+input[type=text], input[type=email]
+{
+	width: 60%;
+	margin: 2px 0px 2px 0px;
+}
+
+input:checked + label img
+{
+	background: white;
+}
+
+input[type=submit]
+{
+	margin: 2px;
+	width: 100%;
+	border: none;
+	background-color: #363d32;
+	color: white;
+	font-weight: bold;
+	padding: 10px 32px;
+}
+
+
+/**FOOTER**/
+footer
+{
+	background: url('contenu/footer.jpg');
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer div.section
+{
+	margin-left: 10px;
+	margin-top: 10px;
+	margin: auto;
+}
+
+footer div:nth-child(2)
+{
+	flex: 1;
+	text-align: center;
+}
+
+footer h1, footer p
+{
+	color: white;
+	margin: 0px 10px 0px 10px;
+}
+
+footer h1
+{
+	font-size: 18px;
+}
+
+footer p
+{
+	font-size: 12px;
+}
+
+
+
+footer a
+{
+	display: block;
+	margin-right: 10px;
+	font-size: 12px;
+	text-align: right;
+}
+
+footer a:visited
 {
 	color: white;
 }
 
+.contact
+{
+	font-size: 32px;
+	vertical-align: middle;
+	color: white;
+}
