@@ -7,6 +7,8 @@
 
 }
 
+
+/**STANDARD**/
 body
 {
 	font-family: 'roboto-slab', serif;
@@ -112,7 +114,7 @@ nav a p
 #content article
 {
 	text-align: justify;
-	min-width: 100%;
+	min-width: 90%;
 	padding: 5px;
 	margin: 5px;
 }
@@ -299,4 +301,105 @@ footer a:visited
 	font-size: 32px;
 	vertical-align: middle;
 	color: white;
+}
+
+/**RESPONSIVE**/
+	/** Ecrans <1024px **/
+@media screen and (max-width: 1024px)
+{
+	nav
+	{
+		width: auto;
+		flex-direction: column;
+		align-items: center;
+		background: #87bd60;
+	}
+	
+	nav a
+	{
+		margin: 5px;
+		padding: 5px;
+		border: 2px white solid;
+		width: 100%;
+	}
+	
+	nav a p
+	{
+		display: none;
+	}
+	
+	nav a img
+	{
+		display: none;
+	}
+	
+	#content
+	{
+		flex-direction: column;
+	}
+	
+	#content section
+	{
+		width: 95%;
+	}
+	
+	aside p
+	{
+		text-align: left;
+	}
+	
+	footer .contact
+	{
+		font-size: 18px;
+	}
+}
+
+	/** Ecrans Smartphones **/
+@media all and (max-device-width: 480px)
+{
+	nav
+	{
+		width: auto;
+		flex-direction: column;
+		align-items: center;
+		background: #87bd60;
+	}
+	
+	nav a
+	{
+		margin: 5px;
+		padding: 5px;
+		border: 2px white solid;
+		width: 100%;
+	}
+	
+	nav a p
+	{
+		display: none;
+	}
+	
+	nav a img
+	{
+		display: none;
+	}
+	
+	#content
+	{
+		flex-direction: column;
+	}
+	
+	#content section
+	{
+		width: 95%;
+	}
+	
+	aside p
+	{
+		text-align: left;
+	}
+	
+	footer .contact
+	{
+		font-size: 18px;
+	}
 }

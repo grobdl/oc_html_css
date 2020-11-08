@@ -46,3 +46,25 @@ h2
 }
 
 
+/** Ecrans Smartphones **/
+@media screen and (max-width: 1024px)
+{
+	header
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	
+	#content, #contenu
+	{
+		width:100%;
+		flex-direction: column;
+	}
+	
+	#lisere
+	{
+		display: none;
+	}
+}
