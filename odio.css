@@ -73,7 +73,7 @@ nav a:hover
 	background: white;
 }	
 
-nav a h1
+nav a h2
 {
 	font-size: 24px;
 	text-transform: uppercase;
@@ -152,19 +152,19 @@ form div
 	flex-wrap: wrap;
 }
 
-form h1, div h2, div p
+form h2, div h3, div p
 {
 	width: 100%;
 	margin: 0px;
 }
 
-form h1
+form h2
 {
 	text-transform: uppercase;
 	text-align: center;
 }
 
-form div h2
+form div h3
 {
 	font-size: 18px;
 	text-align: left;
@@ -263,13 +263,13 @@ footer div:nth-child(2)
 	text-align: center;
 }
 
-footer h1, footer p
+footer h2, footer p
 {
 	color: white;
 	margin: 0px 10px 0px 10px;
 }
 
-footer h1
+footer h2
 {
 	font-size: 18px;
 }

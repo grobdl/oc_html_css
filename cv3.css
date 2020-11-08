@@ -1,0 +1,47 @@
+@font-face
+{
+	font-family: 'roboto-slab';
+	src: 	url('fonts/RobotoSlab-Regular-webfont.eot');
+	src: 	url('fonts/RobotoSlab-Regular-webfont.woff') format('woff'),
+			url('fonts/RobotoSlab-Regular-webfont.ttf') format('truetype');
+
+}
+	
+body
+{
+	font-family: 'roboto-slab', serif;
+}
+
+#content
+{
+	display: flex;
+}
+
+section
+{
+	padding: 5px;
+	margin: 5px;
+	display: flex;
+}
+
+section img
+{
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+article
+{
+	padding: 5px;
+	margin: 5px;
+}
+
+h2
+{
+	color: blue;
+	text-align: center;
+	border: 2px dashed blue;
+	box-shadow: 3px 3px 10px black;
+}
+
